@@ -1,0 +1,58 @@
+<import src="../../template/template.wxml" />
+<import src="../../template1/template1.wxml" />
+<view class='biggest'>
+  <view class='search'>
+    <view class='searchItem'>
+      <image src='../../img/搜索.png' />
+      <input placeholder='搜索你感兴趣的课程'></input>
+    </view>
+  </view>
+  <swiper
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+  >
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='course clearfix'>
+    <view class='php'>
+      <image src='../../img/a.jpg'></image>
+      <view class='title'>php</view>
+    </view>
+    <view class="c++">
+      <image src='../../img/d.jpg'></image>
+      <view class='title'>c++</view>
+    </view>
+    <view class="java">
+      <image src='../../img/b.jpg'></image>
+      <view class='title'>java</view>
+    </view>
+    <view class="css">
+      <image src='../../img/c.jpg'></image>
+      <view class='title'>css</view>
+    </view>
+  </view> 
+  <view class='announcement clearfix'>
+    <view class='ant-title'>少儿启蒙国学动漫课堂开课！</view>
+    <view class='ant-img'>
+      <image src='../../img/公告 .png'></image>
+      <text>公告</text>
+    </view>
+  </view>
+  <view class='content clearfix'>
+    <view class="update">
+      <view class='big-title'>最新更新</view>
+      <template is='list' data="{{detail}}"/>
+    </view>
+    <view class='four-course'>
+      <view class='cse'>
+        <template is='a-course' data="{{course}}"/>
+      </view> 
+    </view>
+  </view>
+</view>

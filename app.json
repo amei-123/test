@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/course/course",
+    "pages/person/person"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#ffcc66",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/首页 (2).png",
+        "selectedIconPath": "img/首页-选中 (2).png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "全部课程",
+        "iconPath": "img/全部课程 (4).png",
+        "selectedIconPath": "img/全部课程 (5).png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "我的课程",
+        "iconPath": "img/我的课程 (3).png",
+        "selectedIconPath": "img/我的课程 (4).png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "img/个人中心.png",
+        "selectedIconPath": "img/个人中心 (2).png"
+      }
+    ]
+  }
+}

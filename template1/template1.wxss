@@ -1,0 +1,43 @@
+.liste{
+  width:100%;
+  border-bottom: 1px solid #ccc;
+}
+.liste .h{
+  width:100%;
+  height:120rpx;
+  text-align:center;
+  line-height:120rpx;
+  color:#000;
+  font-size:36rpx;
+  font-weight:bolder;
+}
+.one-course{
+  display:flex;
+  justify-content: space-around;
+}
+.one-course .img{
+  width:320rpx;
+  height:230rpx;
+}
+.head{
+  height:60rpx;
+  font-size:30rpx;
+  line-height:60rpx;
+  color:#000;
+}
+.data .title{
+  float:left;
+  color:#ff33cc;
+  font-size:26rpx;
+}
+.data .count{
+  float:right;
+  font-size:24rpx;
+}
+.more{
+  height:80rpx;
+  line-height:80rpx;
+  color:#ff33cc;
+  font-size:26rpx;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+<template name='list'>
+  <view class='list' wx:for='{{detail}}'>
+    <view class="li">
+        <view class='img'>
+          <image src='{{item.src}}'></image>
+        </view>
+        <view class="detail">
+          <view class='head'>{{item.head}}</view>
+          <view class='title'>{{item.title}}</view>
+          <view class='time'>{{item.time}}</view>
+        </view>
+        <view class='free'>{{item.free}}</view>
+    </view>
+  </view> 
+</template>

@@ -1,0 +1,73 @@
+.main{
+  position: relative;
+}
+.item-wrap {
+  width:170rpx;
+  height:1334rpx;
+  background-color:rgba(255, 230, 255,.5);
+}
+.theHead{
+  width: 170rpx;
+  height:120rpx;
+  border-bottom:1px solid #ccc;
+  text-align:center;
+  line-height: 120rpx;
+}
+.theHead:hover{
+  color:coral;
+  cursor: pointer;
+  background-color:#fefefe;
+}
+.hide{
+  position: absolute;
+  top:0;
+  left:170rpx;
+  width:580rpx;
+
+}
+.theItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.aDetailImg > view{
+  height: 50rpx;
+}
+.aImg image{
+  width:160rpx;
+  height:160rpx;
+}
+.buyLogo{
+  width:40rpx;
+  height:40rpx;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  align-self: center;
+}
+.buyLogo image{
+  width:100%;
+  height:100%;
+}
+.bigH{
+  color:#000;
+  font-size:28rpx;
+}
+.figure{
+  color:#ffcc66;
+  font-size:30rpx;
+}
+.counter{
+  font-size:24rpx;
+}
+.hide1,.hide2,.hide3{
+  display: none;
+}
+.item1:hover .hide1{
+  display: block;
+}
+.item2:hover .hide2{
+  display: block;
+}
+.item3:hover .hide3{
+  display: block;
+}

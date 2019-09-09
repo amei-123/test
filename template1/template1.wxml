@@ -1,0 +1,26 @@
+<template name='a-course'>
+  <view class="a-course" wx:for="{{course}}">
+    <view class="liste">
+      <view class='h'>{{item.h}}</view>
+      <view class='one-course'>
+        <view class='first '>
+          <image  class="img" src='{{item.src}}'></image>
+          <view class='head'>{{item.head}}</view> 
+          <view class='data'>
+            <text class='title'>{{item.title}}</text>
+            <text class='count'>{{item.count}}</text>
+          </view>
+        </view>
+        <view class='second'>
+          <image class="img" src='{{item.src}}'></image>
+          <view class='head'>{{item.head}}</view>
+          <view class='data'>
+            <text class='title'>{{item.title}}</text>
+            <text class='count'>{{item.count}}</text>
+          </view>
+        </view>
+      </view>
+      <view class='more'>{{item.more}}</view>
+    </view>
+  </view>
+</template>
